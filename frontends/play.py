@@ -19,4 +19,4 @@ starting_grid: Grid = Grid(starting_supply, starting_deck)
 player1 = ConsolePlayer(Mark("X"), starting_grid)
 player2 = RandomComputerPlayer(Mark("O"), Grid())
 
-TicTacToe(player1, player2, ConsoleRenderer()).play()
+Domi(player1, player2, ConsoleRenderer()).play()
